@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:flutter_hub/models/user.dart';
+import 'package:flutter_hub/domain/entities/user.dart';
 
 Future<List<User>> fetchUsers() async {
   var url = 'https://api.github.com/users';

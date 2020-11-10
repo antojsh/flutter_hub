@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hub/models/user.dart';
-import 'package:flutter_hub/ui/widget/webview.dart';
+import 'package:flutter_hub/domain/entities/user.dart';
+import 'package:flutter_hub/presentation/widget/webview.dart';
 import 'package:transparent_image/transparent_image.dart';
 
 class UserDetailPage extends StatelessWidget {

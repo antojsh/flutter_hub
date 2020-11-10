@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_hub/models/user.dart';
-import 'package:flutter_hub/repository/repositoryUsers.dart';
-import 'package:flutter_hub/ui/user_detail.dart';
+import 'package:flutter_hub/domain/entities/user.dart';
+import 'package:flutter_hub/presentation/user_detail.dart';
+import 'package:flutter_hub/data/remote/repository_api.dart';
 
 class UserPage extends StatelessWidget {
   @override
