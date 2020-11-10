@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hub/presentation/user_page.dart';
+import 'package:flutter_hub/presentation/user/user_page.dart';
 
 void main() => runApp(MyApp());
 
